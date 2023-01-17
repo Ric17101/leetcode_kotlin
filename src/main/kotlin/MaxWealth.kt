@@ -1,3 +1,5 @@
+import kotlin.math.max
+
 fun main(args: Array<String>) {
     val test = MaxWealth().maximumWealth(arrayOf(intArrayOf(1,2,3),intArrayOf(3,2,1)))
     print(test)
@@ -14,7 +16,7 @@ class MaxWealth {
                 currentCustomerWealth += bank
             }
 
-            maxWealthSoFar = Math.max(currentCustomerWealth, maxWealthSoFar)
+            maxWealthSoFar = max(currentCustomerWealth, maxWealthSoFar)
         }
 
 

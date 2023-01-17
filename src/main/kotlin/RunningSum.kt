@@ -1,5 +1,6 @@
 fun main(args: Array<String>) {
-
+    val test = RunningSum().runningSum(intArrayOf(1,2,3,4))
+    print(test.toList())
 }
 
 class RunningSum {

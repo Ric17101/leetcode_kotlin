@@ -1,7 +1,9 @@
+package medium
+
 fun main(args: Array<String>) {
     val test = ProductArrayExceptSelf().productExceptSelf(intArrayOf(1,2,3,4))
-//    val test = ProductArrayExceptSelf().productExceptSelf(intArrayOf(4,5,1,8,2))
-//    val test = ProductArrayExceptSelf().prodxuctExceptSelf(intArrayOf(-1, 1, 0, -3, 3))
+//    val test = medium.ProductArrayExceptSelf().productExceptSelf(intArrayOf(4,5,1,8,2))
+//    val test = medium.ProductArrayExceptSelf().prodxuctExceptSelf(intArrayOf(-1, 1, 0, -3, 3))
     print(test.toList())
 }
 

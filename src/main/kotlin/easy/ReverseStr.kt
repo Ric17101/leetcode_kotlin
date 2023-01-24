@@ -4,8 +4,8 @@ import kotlin.math.min
 
 fun main(args: Array<String>) {
 //    val reverseString = ReverseStr().reverseStr("Hello", 2)
-    val reverseString = ReverseStr().reverseStr("abcdefg", 2)
-//    val reverseString = ReverseStr().reverseStr("abcdef", 3)
+//    val reverseString = ReverseStr().reverseStr("abcdefg", 2)
+    val reverseString = ReverseStr().reverseStr("abcdef", 3)
 //    val reverseString = ReverseStr().reverseStr("abcd", 2)
     print(reverseString)
 }

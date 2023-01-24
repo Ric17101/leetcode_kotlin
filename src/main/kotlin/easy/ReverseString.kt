@@ -1,5 +1,7 @@
+package easy
+
 fun main(args: Array<String>) {
-//    val reverseString = ReverseString().reverseString("Test1".toCharArray())
+//    val reverseString = easy.ReverseString().reverseString("Test1".toCharArray())
     val reverseString = ReverseString().reverseString("Hello ".toCharArray())
     print(reverseString)
 }

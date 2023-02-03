@@ -2,24 +2,11 @@ package interview
 
 fun main() {
 
-//    print(FizzBuzz().print((1..100)))
-    print((1..100).map { index ->
-        mapOf(
-            0 to index,
-            index % 3 to "Fizz",
-            index % 5 to "Buzz",
-            index % 15 to "Fizz Buzz"
-        )[0] 
-    })
-}
+    val string = "Reverse word in a string"
 
-class FizzBuzz {
-//    fun print(intRange: IntRange): List<Map<Int, Any>> {
-//        return intRange.map { index -> mapOf(0 to index,
-//            index % 3 to "Fizz",
-//            index % 5 to "Buzz",
-//            index % 15 to "Fizz Buzz"
-//        )[0]
-//        }
-//    }
+    val reversed = string.split(" ")
+        .reversed()
+        .joinToString(" ")
+
+    print(reversed)
 }
